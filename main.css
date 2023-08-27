@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+}
+
+/* HEADER */
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px 0;
+}
+
+header img {
+	width: 400px;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav li {
+	padding: 20px;
+}
+
+nav li:hover {
+	background-color: #0059ff;
+}
+
+nav li:hover a {
+	color: white;
+}
+
+/* BANNER */
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-image: url('img/banner.png');
+	background-position: center;
+	background-repeat: repeat-x;
+	text-align: center;
+	color: white;
+	font-size: 1.4rem;
+}
+
+.banner p {
+	max-width: 700px;
+	text-shadow: 1px 1px 5px black;
+}
+
+/* MISSIONS */
+
+.missions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.missions img {
+	width: 200px;
+}
+
+.missions div {
+	margin-top: 50px;
+}
+
+.missions div:nth-of-type(2) {
+	margin-left: 100px;
+}
+
+.missions div p {
+	max-width: 500px;
+	font-size: 1.1rem;
+}
+
+/* BLOCKS INFO */
+
+.info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	font-size: 1.2rem;
+}
+
+.info > :nth-child(2n) {
+	margin-left: 100px;
+}
+
+.info img {
+	width: 300px;
+}
+
+.info p {
+	max-width: 500px;
+}
+
+/* FOOTER */
+
+footer {
+	color: white;
+	margin-top: 100px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #2cc7ff;
+}
+
+footer h1 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+footer > div:nth-of-type(1) {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 50px 0;
+	background-color: #0059ff;
+}
+
+footer > div:nth-of-type(2) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #002c7d;
+}
+
+footer > div:nth-of-type(2) p {
+	padding-right: 20px;
+}
+
+footer > div:nth-of-type(2) a {
+	padding: 0 20px;
+	border-left: 1px solid white;
+}
+
+/* PAGE */
+
+.page {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.page h1 {
+	padding: 20px 0;
+	background-color: #0059ff;
+	color: white;
+	text-align: center;
+	border-radius: 60px;
+}
+
+.presentation h2 {
+	padding: 20px;
+	background-color: #0059ff;
+	color: white;
+	text-align: center;
+}
+
+/* FORMATION */
+
+.formation {
+	margin: auto;
+	max-width: 1000px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px black;
+}
+
+.formation .content {
+	padding: 20px;
+}
+
+.formation h1 {
+	margin: 0;
+	padding: 20px 0;
+	background-color: #0059ff;
+	color: white;
+	text-align: center;
+	border-radius: 20px 20px 0 0;
+}
+
+.formation h2 {
+	padding: 10px 0;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.formation p,
+.formation ul,
+.formation ol {
+	font-size: 1.1rem;
+}
